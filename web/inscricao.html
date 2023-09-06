@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <section class="titulo"> 
+        <img class="titulo_img" src="./img/pngwing.com.png" alt="icone">
+        <a href="index.html" class="nav_navegacao"><h1>Confetek</h1></a>
+        <h3>12/08/2023</h3>
+        <button id="temas"><img src="img/moon-svgrepo-com.svg" id="dia_noite" width="30px" height="30px"></button>
+    </section>
+    <nav>
+        <a class="nav_navegacao" href="index.html#secao1">Descrição</a>
+        <a class="nav_navegacao" href="index.html#secao2">Palestrantes</a>
+        <a class="nav_navegacao" href="index.html#secao3">Programação</a>
+        <a class="nav_navegacao" href="inscricao.html">Inscrição</a>
+    </nav>
+</header>
+<body>
+    <section class="inscricao">
+        <h2 class="secao" id="secao4">Inscrição</h2>
+        <form id="inscricao_form">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br><br>
+            <label for="ingresso">Ingresso:</label>
+            <select name="ingresso" id="ingresso">
+                <option value="estudante">Estudante</option>
+                <option value="profissional">Profissional</option>
+                <option value="vip">Vip</option>
+            </select><br><br>
+            <label for="observacoes">Observações:</label><br>
+            <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea><br>
+            <p>Como Ficou Sabendo?</p>
+            <input type="radio" id="redes_sociais" name="como_ficou_sabendo" value="Redes Socias">
+            <label for="redes_sociais">Redes Socias</label>
+            <input type="radio" id="email" name="como_ficou_sabendo" value="Email">
+            <label for="email">Email</label>
+            <input type="radio" id="indicaçao" name="como_ficou_sabendo" value="Indicação">
+            <label id="indicaçao">Indicação</label>
+            <input type="radio" id="outros" name="como_ficou_sabendo" value="Outros">
+            <label for="outros">Outros</label><br><br>
+            <textarea id="caixa_outros" name="caixa_outros" rows="4" cols="50"></textarea><br>
+            <input type="checkbox" id="receber_email">
+            <label for="receber_email">Deseja receber atualizações por email sobre futuros eventos?</label><br><br>
+            <input type="submit" id="submit" value="Enviar">
+        </form>
+        <aside>
+            <h2 class="secao">Informações Importantes</h2>
+            <p><strong>Localização:</strong> Centro de Conferências TechHub</p>
+            <p><strong>Preços:</strong> Ingresso Regular: R$ 100 | Ingresso VIP: R$ 200</p>
+            <p><strong>Patrocinadores:</strong> TechCorp, InnovateX, ConnectTech</p>
+        </aside>
+    </section>
+</body>
+<footer>
+    <h3>Informações sobre a organização</h3>
+    <div class="contatos">
+        <p>Email: <strong>matheus.m.barros@academico.unirv.edu.br</strong></p>
+        <a class="nav_navegacao" href="https://www.instagram.com/m4theus.m.barros/">Instagram</a>
+        <p>Numero: <strong>(64) 99295-1817</strong></p>
+    </div>
+</footer>
+<script src="main.js"></script>
+<script src="inscricao.js"></script>
+</html>

@@ -1,0 +1,141 @@
+:root {
+    --cor-primaria: #84D1FA;
+    --cor-secundaria: #fdfdfd;
+    --cor-terciaria: black;
+    --fonte-principal: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: var(--cor-primaria);
+    display: flex;
+    flex-direction: column;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+.titulo {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    align-items: center;
+    font-size: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.titulo_img {
+    width: 60px;
+    right: 60px;
+}
+
+.nav_navegacao {
+    text-decoration: none;
+    margin: 0 3%;
+    color: var(--cor-secundaria);
+    font-size: 18px;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    margin: 0%;
+    text-align: justify;
+    color: var(--cor-terciaria);
+}
+
+.secao{
+    color: var(--cor-primaria);
+    margin: 3%;
+}
+
+footer {
+    background-color: var(--cor-primaria);
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10%;
+    font-size: 16px;
+}
+
+.descricao_strong {
+    color: var(--cor-primaria);
+}
+
+.palestrantes {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 10%;
+    font-size: 16px;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.palestrantes_texto_img{
+    text-align: center;
+}
+
+.programacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    text-align: center;
+    table-layout: auto;
+    width: 60%
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inscricao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin: 0 0 3% 0;
+}
+
+footer {
+    color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_navegacao:hover{
+    color: rgb(58, 106, 128);
+}
+
+#caixa_outros{
+    display: none;
+}
